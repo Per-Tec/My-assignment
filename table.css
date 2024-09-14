@@ -1,0 +1,21 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: separate; 
+    border-spacing: 10px; 
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    margin-top: 20%;
+}
+
+.container th, .container td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    background-color: white;
+}
+
+.container th {
+    background-color: #f2f2f2;
+}
