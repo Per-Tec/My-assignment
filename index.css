@@ -1,111 +1,59 @@
-body {
+/* General Reset */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.container {
-    width: 100%;
-    text-align: center;
-}
-
-.left-column {
-    width: 50%;
-    height: vh;
-    background-color: #fffcf8;
-    vertical-align: top;
-    font-family: AlmarenaDisplayBold, sans-serif;
-}
-
-.logo {
-    margin-top: 50px;
-}
-
-.right-column {
-    width: 50%;
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
     height: 100vh;
-    background-color: white;
-    vertical-align: top;
-    margin-top: 10px;
-}
-
-.icons {
-    width: 20px;
-    padding: 5px;
-}
-
-.right-column .altschooler {
-    text-align: right;
-    margin-top: 30px;
-    font-weight: bold;
-    font-family: AlmarenaDisplayBold, sans-serif;
-}
-
-.form-header {
-    text-align: left;
-    padding: 40px;
-    margin-top: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.signup-form {
-    padding: 0px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    width: 80%;
-    margin-left: 30px;
-}
-
-.signup-form div {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f8fc;
 }
 
-.full-width {
-    grid-column: span 2;
+/* Container Styling */
+.container {
+    height: 70%;
+    text-align: center;
+    width: 70%;
+    background-color: #f0f8ff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.privacy {
-    text-align: left;
-}
-
-.submit-button {
-    background-color: #696ef5;
-    color: white;
-    border: none;
-    padding: 15px;
-    width: 100%;
-    height: 50px;
-    font-size: 16px;
-    cursor: pointer;
-    font-family: EuclidLight, sans-serif;
-}
-
-.signup-form label{
-    text-align: left;
-    font-size: 16px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 3px;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.88);
-}
-
-.signup-form input{
-    background-color: #fafafa;
-    font-size: 14px;
-    padding: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-family: normal;
-    border: 0;
-    color: rgb(11, 30, 75);
-}
-
-.signup-form select{
-    font-size: 18px;
-    background-color: #fafafa;
-    padding: 25px;
-    border: 0;
-    color: rgba(0, 0, 0, 0.88);
+/* Heading Styling */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* List Styling */
+ul {
+    list-style: none;
+    
+}
 
+li {
+    margin: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #718191;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color:red;
+}
